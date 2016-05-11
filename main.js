@@ -23,19 +23,14 @@ range(2, 7); // => [2, 3, 4, 5, 6]
 range(10, 10); // => []
 range(10, 2); // => []
 
-// BUCKET OF SLOTHS
+// LAST
 
-var bucketOfSloths = [
-  {name: {first: "Furry", middle: "Danger", last: "Assassin"}, age: 2},
-  {name: {first: "Slow", last: "Pumpkin"}, age: 3},
-  {name: {first: "Bullet", middle: "Proof", last: "Sloth"}, age: 4},
-  {name: {first: "Boos", middle: "Boos", last: "Bun"}, age: 5},
-  {name: {first: "Jungle", last: "Fuzz"}, age: 2}
-];
-
-function longestName(bucketOfSloths) {
-  // TODO: Your code here
+function last (arr) {
+  // TODO: YOUR CODE HERE
 }
 
-longestName(bucketOfSloths);
-// => {name: {first: "Furry", middle: "Danger", last: "Assassin"}, age: 2}
+// ADD ONE
+
+function addOne (arr) {
+  // TODO: YOUR CODE HERE
+}
