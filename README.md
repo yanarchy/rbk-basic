@@ -51,3 +51,5 @@
   c. Add more CSS to make it look even better!
   d. Using \<form\>, create a simple contact form. Find more info <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">here</a>.
   e. Make a list using `ul` (or `ol`) and `li`s.
+
+11. At the end, please ZIP your entire file and RENAME TO YOUR NAME. Please submit to the instructors.

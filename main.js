@@ -4,23 +4,19 @@
 
 var pages = [
   // Your Code Here
-  'home', 'about', 'contact'
 ];
 
 var items = document.getElementsByClassName('nav-item');
 var contentContainers = document.getElementsByClassName('content-container');
 var navHeading = document.getElementsByClassName('nav-heading');
-
 var name = window.prompt('What is your name?');
 
 function each (list, callback) {
   // TODO: your code here
-  for (var i = 0; i < list.length; i++) {
-    callback(list[i], i);
-  }
 }
 
 function onShowClick (e) {
+  // #4
   for (var i = 0; i < contentContainers.length; i++) {
     contentContainers[i].className = 'content-container';
   }
@@ -59,4 +55,4 @@ navHeading[0].innerHTML = navHeading[0].innerHTML + ' ' + name;
 each(pages, addNav);
 each(pages, addContentContainer);
 each(items, addClick);
-addText(pages[0], 'HELLO HELLO HELLO!');
+addText(pages[0], 'This is a test to show you how adding text should work. My name is ' + name);
